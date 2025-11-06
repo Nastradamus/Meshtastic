@@ -4,7 +4,7 @@
 
 ### Seeed Wio Tracker L1 E-ink
 
-<img src="https://github.com/Nastradamus/Meshtastic/blob/main/images/tracker.jpeg" width="800">
+<img src="https://github.com/Nastradamus/Meshtastic/blob/main/images/tracker.jpeg" width="400">
 
 Собрал модифицированную прошивку для [корпуса](https://www.printables.com/model/1420534-seeed-wio-tracker-l1-e-ink-enclosure) из printables.com,
 расположение дисплея в котором отличается от стандартной версии Wio Tracker L1.  
