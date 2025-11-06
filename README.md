@@ -1,18 +1,21 @@
 # Meshtastic
 
-## Полезные кастомные прошивки для устройств Meshtastic
+## Мои кастомные сборки прошивок для устройств Meshtastic
 
 ### Seeed Wio Tracker L1 E-ink
 
-<img src="https://github.com/Nastradamus/Meshtastic/blob/main/images/tracker.jpeg" width="400">
+<img src="https://github.com/Nastradamus/Meshtastic/blob/main/images/tracker.jpeg" width="250">
 
-Собрал модифицированную прошивку для [корпуса](https://www.printables.com/model/1420534-seeed-wio-tracker-l1-e-ink-enclosure) из printables.com,
-расположение дисплея в котором отличается от стандартной версии Wio Tracker L1.  
+Собрал модифицированную прошивку для [корпуса](https://www.printables.com/model/1420534-seeed-wio-tracker-l1-e-ink-enclosure) 
+расположение дисплея в котором отличается от стандартной версии Wio Tracker L1.
 
-Данная версия прошивки:
+Что исправлено:
 
-- Переворачивает кнопки джойстика на 90 градусов
-- Добавляет возможность читать сообщения на русском языке
+- Сообщения на русском языке
+- Джойстик перевернут, чтобы его можно было удобно использовать с корпусом как на фотографии
+- Фича: если не удается отобразить имя ноды в поле from на экране Messages, устройство покажет последние 4 цифры MAC-адреса, отправившей сообщение ноды.  
+Например: '1m ago from Meshtastic 00C1'.  
+Примечание: при обновлении экрана сообщений, может исчезнуть имя ноды и замениться на 4 символа MAC. Это связано с быстрой ротацией nodeDB - базы данных, которая очень ограничена в размерах: при новой отрисовке дисплея, информация от ноды, отправившей сообщения, может исчезнуть из базы.
 
 Прошивка:
 [seeed_wio_tracker_L1_eink_v2.7.13_RU_fixed_joy.uf2](https://github.com/Nastradamus/Meshtastic/blob/5444707b44fb66e9464707df867f7d56311aecbb/seeed_wio_tracker_L1_eink_v2.7.13_RU_fixed_joy.uf2)
