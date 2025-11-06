@@ -4,7 +4,7 @@
 
 ### Seeed Wio Tracker L1 E-ink
 
-![Seeed Wio Tracker L1 E-ink](images/tracker.jpg)
+![Seeed Wio Tracker L1 E-ink](images/tracker.jpeg)
 
 Собрал модифицированную прошивку для [корпуса](https://www.printables.com/model/1420534-seeed-wio-tracker-l1-e-ink-enclosure) из printables.com,
 расположение дисплея в котором отличается от стандартной версии Wio Tracker L1.  
