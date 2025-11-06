@@ -18,6 +18,6 @@
 Примечание: при обновлении экрана сообщений, может исчезнуть имя ноды и замениться на 4 символа MAC. Это связано с быстрой ротацией nodeDB - базы данных, которая очень ограничена в размерах: при новой отрисовке дисплея, информация от ноды, отправившей сообщения, может исчезнуть из базы.
 
 Прошивка:
-[seeed_wio_tracker_L1_eink_v2.7.13_RU_fixed_joy.uf2](https://github.com/Nastradamus/Meshtastic/blob/5444707b44fb66e9464707df867f7d56311aecbb/seeed_wio_tracker_L1_eink_v2.7.13_RU_fixed_joy.uf2)
+[seeed_wio_tracker_L1_eink_v2.7.13_RU_fix_1.3_by_Nas.uf2](firmwares/seeed_wio_tracker_L1_eink_v2.7.13_RU_fix_1.3_by_Nas.uf2)
 
 ---
